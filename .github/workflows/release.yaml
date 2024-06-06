@@ -62,7 +62,7 @@ jobs:
           password: ${{ secrets.oci_password || secrets.GITHUB_TOKEN }}
 
       - name: Install ORAS
-        uses: oras-project/setup-oras@v1.0.0
+        uses: oras-project/setup-oras@v1.2.0
 
       - name: Configure OCI repository
         run: |
