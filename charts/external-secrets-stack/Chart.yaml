@@ -27,7 +27,7 @@ dependencies:
     repository: https://kubernetes-sigs.github.io/metrics-server
   - name: local-path-provisioner
     repository: https://charts.containeroo.ch
-    version: "^0.0.24"
+    version: "^0.0.31"
   - name: minio
     version: "^4.0.12"
     repository: https://charts.min.io
