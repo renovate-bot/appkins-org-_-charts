@@ -20,7 +20,7 @@ dependencies:
     version: "^1.14.0-snapshot.3"
     repository: https://helm.cilium.io
   - name: metallb
-    version: "^0.13.10"
+    version: "^0.15.0"
     repository: https://metallb.github.io/metallb
   # - name: openelb
   #   version: "^0.2.4"
