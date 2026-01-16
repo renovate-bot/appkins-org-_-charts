@@ -29,7 +29,7 @@ jobs:
           fetch-depth: 0
 
       - uses: alexellis/setup-arkade@v3
-      - uses: alexellis/arkade-get@1eef818e467c387d3f50cfe0d2c565d1cbe82b03
+      - uses: alexellis/arkade-get@320099c33f621a9acd211db84157696e1f4db0e3
         with:
           helm: latest
           jq: latest
