@@ -24,7 +24,7 @@ jobs:
       helm_repos: "cilium=https://helm.cilium.io,grafana=https://grafana.github.io/helm-charts"
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
