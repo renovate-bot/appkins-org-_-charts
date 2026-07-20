@@ -41,7 +41,7 @@ dependencies:
   - name: fluent-bit
     condition: fluent-bit.enabled
     repository: https://fluent.github.io/helm-charts
-    version: "^0.30.4"
+    version: "^0.57.0"
     tags:
       - logging
   - name: loki
