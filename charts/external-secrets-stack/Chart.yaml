@@ -33,7 +33,7 @@ dependencies:
     repository: https://charts.min.io
     condition: minio.enabled
   - name: kube-prometheus-stack
-    version: "^46.8.0"
+    version: "^87.0.0"
     repository: https://prometheus-community.github.io/helm-charts
     condition: prometheus.enabled
     tags:
