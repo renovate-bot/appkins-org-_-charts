@@ -14,7 +14,7 @@ cloudProvider:
   image:
     repository: kubevip/kube-vip-cloud-provider
     pullPolicy: IfNotPresent
-    tag: "v0.0.7"
+    tag: "v0.0.12"
 
 config:
   address: ""
