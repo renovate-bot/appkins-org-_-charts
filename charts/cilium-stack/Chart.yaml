@@ -50,7 +50,7 @@ dependencies:
   - name: loki
     condition: loki.enabled
     repository: https://grafana.github.io/helm-charts
-    version: "^2.15.2"
+    version: "^7.0.0"
     tags:
       - logging
   - name: tempo
